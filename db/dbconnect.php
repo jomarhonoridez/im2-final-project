@@ -1,8 +1,9 @@
 <?php
 
-$host="localhost";
+$host="db";
+$port="3306";
 $username="root";
-$dbpassword="";
+$dbpassword="rootpassword";
 $dbname="socmed_honoridezc";
 
-$con = new mysqli ($host,$username,$dbpassword,$dbname);
+$con = new mysqli($host,$username,$dbpassword,$dbname,$port);

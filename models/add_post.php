@@ -1,6 +1,8 @@
-p<?php
-session_start();
+<?php
 include '../db/dbconnect.php';
+
+session_start();
+
 
 $post = htmlspecialchars($_POST['post-area'] );
 $aid = htmlspecialchars($_SESSION['aid']);

@@ -10,6 +10,10 @@ $sql = "SELECT * FROM account WHERE email='$email' AND password='$pass'";
 
 $result=$con->query($sql);
 
+if (!$result) {
+    header('location:../login.php?err=1');
+}
+
 if(mysqli_num_rows($result)==1){
     $row=mysqli_fetch_assoc($result);
     
@@ -19,7 +23,6 @@ if(mysqli_num_rows($result)==1){
     $_SESSION['email']=$row['email'];
     
     header('location:../profile.php');
-}
- else {
-      header('location:../login.php?err=1');
+} else {
+    header('location:../login.php?err=1');
 }

@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    box-sizing: content-box;
+}
+
+.navbar-icon {
+    width: 60px;
+    height: 60px;
+}
+
 body{
     background-color: #cccccc;
     font-family: 'Calibri';
@@ -29,13 +39,16 @@ input[type='submit']{
     border: none;
     padding: .7em;
 }
-input[type='submit'] :hover{
-    background-color: #3535a5
+input[type='submit']:hover{
+    background-color: #1b1b56
 }
 .navbar{
     width: 100%;
     background-color: #6c286c;
-    box-shadow: 5px 5px 5px 5px #000000;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
 }
 .right-link{
     display:inline-block;
@@ -72,6 +85,9 @@ li{
     color: #e05555;
 }
 
+.left-link{
+    display: inline-block;
+}
 .left-link a{
     text-decoration: none;
     color: #ffe8ff;
@@ -88,9 +104,8 @@ li{
 
 .container{
     min-height: 40vh;
-    width: 80%;
+    width: 100%;
     margin:auto;
-    border-radius: 10px;
     background-color: #ffe8ff;
     overflow: hidden;
     box-shadow: 2px 2px 2px 0px #00000055;
@@ -98,10 +113,10 @@ li{
 }
 .banner{
     min-height: 40vh;
-    width:80%;
+    width:100%;
     background-color: #ffffff;
     padding:.5em;
-    background-image: url("123.jpg");
+    background-image: url(/assets/profile-banner.jpeg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -142,9 +157,11 @@ li{
     margin: auto;
     padding:1em;
     border-radius: 15px;
+    margin-bottom: 10px;
 }
 #post-button{
     display:block;
     width: 80%;
     margin:auto;
+    cursor: pointer;
 }
