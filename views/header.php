@@ -23,10 +23,10 @@
         <?php if (isset($_SESSION['aid'])) { ?>
             <ul class="right-link">
                 <a href="profile.php">
-                    <li><?= $_SESSION['firstname'] . " " . $_SESSION['lastname']; ?></li>
+                    <?= $_SESSION['firstname'] . " " . $_SESSION['lastname']; ?>
                 </a>
                 <a href="models/logout_account.php">
-                    <li>Log out</li>
+                    Log out
                 </a>
             </ul>
 
