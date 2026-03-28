@@ -1,7 +1,7 @@
 <?php include 'views/header.php'; ?>
 
 <div class="container">
-    <?php include 'models/loadtimeline.php'; ?>
+    <?php include 'models/loadtime.php'; ?>
     
 </div>
 
