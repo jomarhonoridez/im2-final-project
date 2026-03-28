@@ -1,0 +1,150 @@
+body{
+    background-color: #cccccc;
+    font-family: 'Calibri';
+}
+.input-form{
+    background-color: #ffe8ff;
+    width:30%;
+    margin: 2em auto;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #000000;
+}
+input{
+    width: 95%;
+    display: block;
+    margin: .5em auto;
+    padding: .5em .2em;
+    margin-top: .1em;
+    outline-color: #6c286c
+}
+label{
+    font-size: .8em;
+    color: #ac44ac;
+    margin-left:.5em;
+}
+input[type='submit']{
+    background-color: #5555aa;
+    color: #fff;
+    border: none;
+    padding: .7em;
+}
+input[type='submit'] :hover{
+    background-color: #3535a5
+}
+.navbar{
+    width: 100%;
+    background-color: #6c286c;
+    box-shadow: 5px 5px 5px 5px #000000;
+}
+.right-link{
+    display:inline-block;
+    width: 20%;
+    margin: 0px;
+    margin-left: auto;
+}
+li{
+    display: inline-block;
+    padding: 1em;
+}
+.right-link a{
+    text-decoration: none;
+    color: #ffe8ff;
+    padding: 1em;
+}
+.right-link a:hover{
+    background-color: #7c387c;
+}
+
+
+
+.right-link a:active{
+    background-color: #8c488c;
+}
+.alert{
+    text-align: center;
+    font-size: .8em;
+    color: #e05555;
+}
+.title{
+    text-align: center;
+    font-size: .8em;
+    color: #e05555;
+}
+
+.left-link a{
+    text-decoration: none;
+    color: #ffe8ff;
+    padding:1em;
+}
+
+.logo{
+    background-image: url('Picture3.png');
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.container{
+    min-height: 40vh;
+    width: 80%;
+    margin:auto;
+    border-radius: 10px;
+    background-color: #ffe8ff;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px 0px #00000055;
+    position: relative;
+}
+.banner{
+    min-height: 40vh;
+    width:80%;
+    background-color: #ffffff;
+    padding:.5em;
+    background-image: url("123.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.pro-pic{
+    background-color: #faf;
+    border:solid 5px #fff;
+    border-radius: 50%;
+    width:20vh;
+    height:20vh;
+    position:absolute;
+    bottom: -10vh;
+    left:10vh;
+    z-index: 100;
+    box-shadow: 2px 2px 2px 0px #00000055;
+        
+}
+.banner-name{
+    font-size: 2em;
+    color: #3535a5;
+    position: absolute;
+    left: 35vh;
+    bottom: -5vh;
+}
+.post-container{
+    margin:2vh;
+    margin-top: 15vh;
+   
+}
+.post-form{
+    width:50%;
+    margin:auto;
+}
+#post-area{
+    resize: none;
+    width:100%;
+    box-sizing: border-box;
+    margin: auto;
+    padding:1em;
+    border-radius: 15px;
+}
+#post-button{
+    display:block;
+    width: 80%;
+    margin:auto;
+}
