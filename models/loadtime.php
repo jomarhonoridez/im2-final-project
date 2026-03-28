@@ -8,7 +8,8 @@ $sql = "SELECT account.aid, "
   . " post.post_date,"
   . " post.post_time "
   . " FROM account INNER JOIN post "
-  . " ON account .aid = post.aid;";
+  . " ON account.aid = post.aid "
+  . " WHERE account.aid = '$aid';";
 
 $result = $con->query($sql);
 
