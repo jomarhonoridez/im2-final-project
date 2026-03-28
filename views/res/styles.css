@@ -15,10 +15,10 @@ body{
 .input-form{
     background-color: #ffe8ff;
     width:30%;
-    margin: 2em auto;
+    margin: auto auto;
     padding: 1em;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px 5px #000000;
+    border: solid 1px #fc8dfc;
+    box-shadow: 1px 1px 5px 1px #fc8dfc;
 }
 input{
     width: 95%;
