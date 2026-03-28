@@ -5,12 +5,12 @@
 
 .navbar-icon {
     width: 60px;
-    height: 60px;
+    height: 6vh;
 }
 
 body{
     background-color: #cccccc;
-    font-family: 'Calibri';
+    font-family: 'Arial';
 }
 .input-form{
     background-color: #ffe8ff;
@@ -47,12 +47,12 @@ input[type='submit']:hover{
     background-color: #6c286c;
     display: flex;
     flex-direction: row;
-    align-items: start;
+    align-items: center;
     justify-content: start;
 }
-.right-link{
-    display:inline-block;
-    width: 20%;
+.right-link {
+    display: flex;
+    flex-direction: row;
     margin: 0px;
     margin-left: auto;
 }
@@ -60,7 +60,7 @@ li{
     display: inline-block;
     padding: 1em;
 }
-.right-link a{
+.right-link a {
     text-decoration: none;
     color: #ffe8ff;
     padding: 1em;
@@ -103,7 +103,7 @@ li{
 }
 
 .container{
-    min-height: 40vh;
+    min-height: 94vh;
     width: 100%;
     margin:auto;
     background-color: #ffe8ff;
@@ -164,4 +164,29 @@ li{
     width: 80%;
     margin:auto;
     cursor: pointer;
+}
+
+.post-block {
+    padding: 5px 45px;
+}
+
+.post-card {
+    border: solid 1px #fc8dfc;
+    box-shadow: 1px 1px 5px 1px #fc8dfc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.post-name {
+    font-size: 12px;
+    color: #2c0069;
+}
+
+.post-timestamp {
+    font-size: 12px;
+    color: #838383;
+}
+
+.post-content {
+    padding: 5px 10px
 }
